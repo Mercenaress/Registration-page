@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Titillium+Web&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: min-content;  
+}
+
+.signup__title--backdrop {
+    background-color: #bc96ff;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.form__wrapper {
+    background-color: #eccdfd;
+    padding: 15px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.signup__titles {
+    font-family: 'Titillium Web';
+    font-size: 1.625rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px;
+}
+
+.form__signup {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.form__username,
+.form__email,
+.form__password {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.form__label {
+    font-family: 'open sans';
+    font-size: 0.625rem;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+.form__input {
+    font-family: 'open sans';
+    font-size: 1.125rem;
+    font-weight: 400;
+    border-radius: 4px;
+    border: solid 1px;
+    padding: 5px;
+}
+
+.button__signup {
+    background-color: #bc96ff;
+    font-family: 'open sans';
+    font-size: 1.125rem;
+    font-weight: 700;
+    border: solid rgb(165, 63, 243);
+    border-radius: 6px;
+    box-shadow: -2px 2px 1px 1px rgba(173, 72, 255, 0.2);
+    padding: 20px;
+    margin: 30px 0 120px 0;
+}
