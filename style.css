@@ -16,7 +16,7 @@ body {
 
 .main {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: 1fr;
     grid-auto-rows: min-content;  
 }
 
@@ -43,7 +43,7 @@ body {
 
 .form__signup {
     display: grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: 1fr;
 }
 
 .form__username,
